@@ -34,6 +34,22 @@ projects had common functionalities. My goal in making this starter kit is to of
 
 On going redaction
 
+## Installation Instructions
+
+  1. Run git clone https://github.com/BriceHache/laravel7-starterkit.git laravel7-starterkit
+  2. Create a MySQL database for the project
+    From the projects root run cp .env.example .env
+    Configure your .env file
+    Run composer update from the projects root folder
+   
+  3. From the projects root folder run sudo chmod -R 755 ../laravel7-starterkit
+  4. From the projects root folder run php artisan key:generate
+  5. From the projects root folder run php artisan migrate
+  6. From the projects root folder run composer dumpautoload
+  7. From the projects root folder run php artisan db:seed
+   
+
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).

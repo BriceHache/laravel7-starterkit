@@ -1,0 +1,39 @@
+.color-radio label {
+    display: block;
+    position: relative;
+    height: 100px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.color-radio label input {
+    height: 0;
+    width: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.color-radio label .color-control-box {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.color-radio label input:checked + .color-control-box {
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+.color-radio label input:checked + .color-control-box:after {
+    position: absolute;
+    content: "";
+    left: calc(50% - 7px);
+    top: calc(50% - 20px);
+    width: 18px;
+    height: 36px;
+    border: solid #fff;
+    border-width: 0 6px 6px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
