@@ -6,35 +6,35 @@
 
 return [
 
-    'account_already_exists' => 'Un compte avec cette adresse email existe déja.',
-    'account_not_found'      => "Le nom d'utilisateur ou le mot passe est incorrect.",
-    'account_not_activated'  => "Ce compte d'utilisateur n'est pas activé.",
-    'account_suspended'      => "Compte utilisateur suspendu à cause d'un trop grand nombre de tentatives de connexion. Essayer à nouveau après [:delay] secondes",
-    'account_banned'         => 'Ce compte utilisateur est banni.',
+    'account_already_exists' => 'An account with this email address already exists.',
+    'account_not_found'      => "The user name or password is incorrect.",
+    'account_not_activated'  => "This user account is not activated.",
+    'account_suspended'      => "User account suspended due to too many connection attempts. Try again after [:delay] secondes",
+    'account_banned'         => 'This user account is banned.',
 
     'signin' => [
-        'error'   => "Il y a eu un problème pendant l'authentification, merci de réessayer.",
-        'success' => 'Vous avez bien été authentifié.',
+        'error'   => "There was a problem during authentication, please try again.",
+        'success' => 'You have been authenticated.',
     ],
 
     'signup' => [
-        'error'   => "Il y a eu un problème à la création de votre compte, merci de réessayer.",
-        'success' => 'Compte crée avec succès.',
+        'error'   => "There was a problem creating your account, please try again.",
+        'success' => 'Account successfully created.',
     ],
 
         'forgot-password' => [
-            'error'   => "Il y a eu un problème à la récupération de votre mot de passe, merci de réessayer.",
-            'success' => 'Email de récupération de mot de passe bien envoyé.',
+            'error'   => "There was a problem recovering your password, please try again.",
+            'success' => 'Password recovery email sent successfully.',
         ],
 
         'forgot-password-confirm' => [
-            'error'   => "Il y a eu un problème pour le changement de votre mot de passe, merci de réessayer.",
-            'success' => 'Votre mot de passe a bien été changé.',
+            'error'   => "There was a problem changing your password, please try again.",
+            'success' => 'Your password has been successfully changed.',
         ],
 
     'activate' => [
-        'error'   => "Il y a eu un problème lors de l'activation de votre compte, merci de réessayer.",
-        'success' => 'Votre compte a bien été activé.',
+        'error'   => "There was a problem activating your account, please try again.",
+        'success' => 'Your account has been activated.',
     ],
 
 ];

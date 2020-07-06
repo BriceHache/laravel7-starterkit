@@ -6,18 +6,18 @@
 
 return [
 
-    'password'				=> 'Mot de passe',
+    'password'				=> 'Password',
     'email'					=> 'Email',
-    'newemail'				=> 'Nouvel Email',
-    'confirmemail'			=> "Confirmation de l'email",
-    'firstname'				=> 'Prénom',
-    'lastname'				=> 'Nom',
-    'newpassword'			=> 'Nouveau mot de passe',
-    'website'				=> 'Site internet',
-    'country'				=> 'Pays',
+    'newemail'				=> 'New Email',
+    'confirmemail'			=> "Email confirmation",
+    'firstname'				=> 'First name',
+    'lastname'				=> 'Last name',
+    'newpassword'			=> 'New passord',
+    'website'				=> 'Website',
+    'country'				=> 'Country',
     'gravataremail'			=> 'Email Gravatar',
-    'changegravatar'		=> 'Changer votre avatar sur Gravatar.com',
-    'oldpassword'			=> 'Mot de passe actuel',
-    'confirmpassword'		=> 'Confirmation du mot de passe',
+    'changegravatar'		=> 'Change your gravatar on Gravatar.com',
+    'oldpassword'			=> 'Current password',
+    'confirmpassword'		=> 'Confirmation of password',
 
 ];

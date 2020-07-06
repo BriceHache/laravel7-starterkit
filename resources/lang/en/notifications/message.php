@@ -2,10 +2,10 @@
 
 return [
 
-    'error' => 'Erreur: ',
-    'warning' => 'Avertissement: ',
+    'error' => 'Error: ',
+    'warning' => 'Warning: ',
     'info' => 'Info: ',
-    'success' => 'Succès: ',
-    'checkForm' => 'Veuillez vérifier le formulaire et corriger les erreurs',
+    'success' => 'Success: ',
+    'checkForm' => 'Please check the form and correct any errors',
 
 ];
